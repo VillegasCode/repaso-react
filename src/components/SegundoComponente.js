@@ -2,6 +2,14 @@ import React from 'react'
 
 export const SegundoComponente = () => {
   return (
-    <div>SegundoComponente</div>
+    <div>SegundoComponente
+    <h2>SEGUNDO COMPONENTE</h2>
+    <ul>
+        <li>Dato 1</li>
+        <li>Dato 2</li>
+        <li>Dato 3</li>
+
+    </ul>
+    </div>
   )
 }
