@@ -24,7 +24,8 @@ export const PrimerComponente = () => {
     return (
     <div>
         <h1>PRIMER COMPONENTE</h1>
-        <p>Mi nombre es: {nombre} </p>
+        {/* Añadiendo un className a la variable para que cambie el color según su longitud */}
+        <p>Mi nombre es: <strong className={nombre.length >= 4 ? 'verde' : 'rojo'}>{nombre}</strong> </p>
 
         <input type='text' onChange={e => cambiarNombre(e.target.value)} placeholder='Escribe un nuevo nombre'></input>
 
