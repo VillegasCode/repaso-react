@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { PrimerComponente } from './components/PrimerComponente';
+import { SegundoComponente } from './components/SegundoComponente';
 
 function App() {
   return (
@@ -10,6 +12,10 @@ function App() {
           Repaso de REACT con Alex Villegas
         </p>
        
+       <PrimerComponente />
+        <hr></hr>
+       <SegundoComponente />
+
       </header>
     </div>
   );
