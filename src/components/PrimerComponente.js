@@ -28,6 +28,10 @@ export const PrimerComponente = () => {
 
         <input type='text' onChange={e => cambiarNombre(e.target.value)} placeholder='Escribe un nuevo nombre'></input>
 
+        <button onClick={e => {
+          console.log("El valor guardado en tu estado es: ", nombre);
+        }}>Mostrar el valor del estado</button>
+
         <button onClick={ e => cambiarNombre("Evita Bonita")}>Cambiar Nombre</button>
         <p>Mi web es: {web} </p>
         <hr></hr>
